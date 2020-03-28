@@ -1,0 +1,13 @@
+CREATE DATABASE datos;
+USE datos;
+CREATE TABLE `clima` (
+  `id` varchar(20) DEFAULT NULL,
+  `firma` varchar(50) DEFAULT NULL,
+  `latitud` varchar(20) DEFAULT NULL,
+  `longitud` varchar(20) DEFAULT NULL,
+  `fecha` varchar(20) DEFAULT NULL,
+  `hora` varchar(20) DEFAULT NULL,
+  `utc` varchar(10) DEFAULT NULL,
+  `variable` varchar(20) DEFAULT NULL,
+  `valor` int(5) DEFAULT NULL
+);
